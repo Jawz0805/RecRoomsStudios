@@ -1,0 +1,20 @@
+@import "../../Styles/Variables";
+.youtube-subscribe {
+  display: flex;
+  justify-content: center;
+  min-height: 80px;
+  align-items: center;
+  padding: 5%;
+  span {
+    color: $white;
+    text-align: center;
+  }
+}
+
+.yt-text {
+  font-size: 1em;
+  padding: 0 5% 0 0;
+  @include respond-to("medium") {
+    font-size: 1.5em;
+  }
+}

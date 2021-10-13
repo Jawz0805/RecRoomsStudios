@@ -1,0 +1,22 @@
+@import "../../Styles/Breakpoints";
+.navbar {
+  margin-right: 20px;
+  height: 100%;
+  width: 60%;
+}
+
+.navbar-list {
+  margin: 0;
+  padding: 0;
+  display: none;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  @include respond-to("xsmall") {
+    display: none;
+  }
+
+  @include respond-to("large") {
+    display: flex;
+  }
+}

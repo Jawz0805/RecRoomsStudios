@@ -1,0 +1,40 @@
+@import "../../Styles/Variables";
+
+body.modal-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+.nav {
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  background-color: black;
+  z-index: 6;
+  padding: 5%;
+  padding-top: 15%;
+  font-family: "Montserrat";
+}
+
+.nav-list {
+  font-size: 1.75em;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+  margin: 0;
+  margin-right: 30px;
+
+  padding: 0;
+  @include respond-to("medium") {
+    font-size: 3em;
+  }
+}
+
+.nav-item {
+  margin-bottom: 25px;
+  a {
+    font-family: "Montserrat";
+  }
+}

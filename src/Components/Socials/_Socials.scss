@@ -1,0 +1,187 @@
+@import "../../Styles/Variables";
+
+$size: 1.8em;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.socials-list-container {
+  min-width: 100%;
+  align-items: center;
+
+  @include respond-to("small") {
+    min-width: 40%;
+  }
+  @include respond-to("medium") {
+    min-width: 40%;
+  }
+}
+
+.socials-link-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.socials-container {
+  background-color: $white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-height: 200px;
+  align-items: center;
+  transition: 0.5s;
+}
+.home-socials {
+  @include respond-to("large") {
+    display: none;
+  }
+}
+.socials-list {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  @include respond-to("small") {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+.socials-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socials-heading {
+  text-align: center;
+  padding-bottom: 5%;
+
+  @include respond-to("medium") {
+    padding-bottom: 0;
+  }
+}
+.itunes {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff6932+20,d600fc+50,3cf2fc+80 */
+  background: #ff6932; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #ff6932 20%,
+    #d600fc 50%,
+    #3cf2fc 80%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(20%, #ff6932),
+    color-stop(50%, #d600fc),
+    color-stop(80%, #3cf2fc)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ff6932 20%,
+    #d600fc 50%,
+    #3cf2fc 80%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    -45deg,
+    #ff6932 20%,
+    #d600fc 50%,
+    #3cf2fc 80%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    -45deg,
+    #ff6932 20%,
+    #d600fc 50%,
+    #3cf2fc 80%
+  ); /* IE10+ */
+  background: linear-gradient(
+    135deg,
+    #ff6932 20%,
+    #d600fc 50%,
+    #3cf2fc 80%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6932', endColorstr='#3cf2fc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.insta {
+  background:
+    /////// Use radial gradients to get the rounded
+    /////// gradient effect in each corner
+
+    // left bottom
+    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    // left top
+    radial-gradient(
+        ellipse farthest-corner at 0 -25%,
+        #5258cf,
+        transparent 50%
+      ),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    //  right top
+    radial-gradient(
+        ellipse farthest-corner at 100% 0,
+        #893dc2,
+        transparent 50%
+      ),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    // right bottom
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    /////// create a base coat to smooth
+    /////// corner gradients
+    linear-gradient(
+        #6559ca,
+        #bc318f 30%,
+        #e33f5f 50%,
+        #f77638 70%,
+        #fec66d 100%
+      );
+
+  border-radius: 0.2em;
+  font-size: $size;
+  height: 1em;
+  position: relative;
+  width: 1em;
+
+  &:before,
+  &:after {
+    color: #fff;
+    content: "";
+    display: block;
+    position: absolute;
+    border: 0.075em solid;
+  }
+
+  &:before {
+    border-radius: inherit;
+    height: 0.75em;
+    transform: translate(0.125em, 0.125em);
+    width: 0.75em;
+  }
+
+  &:after {
+    border-radius: 1em;
+    box-shadow: 0.2em -0.2em 0 -0.16em;
+    height: 0.4em;
+    transform: translate(0.3em, 0.3em);
+    width: 0.4em;
+  }
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 1em;
+}

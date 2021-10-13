@@ -1,0 +1,73 @@
+@import "../../Styles/Variables";
+.categories-container {
+  background-color: $black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  @media screen and (min-width: 1040px) {
+    flex-direction: row;
+  }
+  label {
+    padding: 10px;
+    margin: 5px;
+    color: $white;
+  }
+  select {
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 5px 1px $white;
+    border: none;
+    border-radius: 5px;
+    max-width: 100%;
+    min-width: 50%;
+    font-size: 16px;
+  }
+}
+.active {
+  outline: $white;
+  box-shadow: 0 0 5px 1px $white;
+}
+.category-button {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  color: $white;
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 400;
+  transition: all 0.2s ease-in-out;
+  margin-right: 10px;
+  min-width: 70px;
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+.categories-list {
+  background-color: $black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px dotted $white;
+  @media screen and (min-width: 1040px) {
+    max-width: 50%;
+  }
+  align-items: center;
+  padding: 2%;
+}
+
+.categories-title {
+  justify-self: left;
+  margin: 0;
+  color: $white;
+  min-width: 100%;
+  margin: 20px 0;
+  @include respond-to("xlarge") {
+    min-width: 40%;
+  }
+}

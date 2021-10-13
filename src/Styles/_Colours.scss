@@ -1,0 +1,27 @@
+$white: #ffffff;
+$black: #0a0a0a;
+$red: #b4041f;
+$highlight: #292647;
+$yellow: rgb(233, 196, 105);
+
+.black {
+  color: $black;
+}
+.white {
+  color: $white;
+}
+
+.red {
+  color: $red;
+}
+
+.bg-black {
+  background-color: $black;
+}
+.bg-white {
+  background-color: $white;
+}
+
+.bg-red {
+  background-color: $red;
+}
