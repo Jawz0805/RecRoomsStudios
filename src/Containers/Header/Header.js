@@ -32,11 +32,13 @@ const Header = () => {
     }
   };
 
+  console.log(open)
   return (
     <header
       className={
         sticky ? "header-container visible" : "header-container hidden"
       }
+
     >
       <Link to="/home" className="logo-container">
         <img src={Logo} alt="RecRooms" className="logo" />

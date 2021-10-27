@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from 'react-scroll'
 import "./_Nav.scss";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -19,21 +19,24 @@ const Nav = ({ handleClick, open }) => {
         className={open ? "nav modal-open" : "nav"}
       >
         <ul className="nav-list">
-          <li className="nav-item" onClick={() => handleClick()}>
-            <Link to="/home">Home</Link>
+          <li className="nav-item" >
+            <Link activeClass="active" to="home" spy={true} smooth={true} onClick={() => handleClick()}>Home</Link>
           </li>
-          <li className="nav-item">
-            <Link to="/studio" onClick={() => handleClick()}>
+          <li className="nav-item" >
+            <Link activeClass="active" to="studio" spy={true} smooth={true} onClick={() => handleClick()}>
               Our Studio
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/services" onClick={() => handleClick()}>
+            <Link activeClass="active" to="services" spy={true} smooth={true} onClick={() => handleClick()}>
               Services
             </Link>
           </li>
+          <li className="nav-item" >
+            <Link activeClass="active" to="gallery" spy={true} smooth={true} onClick={() => handleClick()}>Gallery</Link>
+          </li>
           <li className="nav-item">
-            <Link to="/contact" onClick={() => handleClick()}>
+            <Link activeClass="active" to="contact" spy={true} smooth={true} onClick={() => handleClick()}>
               Contact
             </Link>
           </li>
