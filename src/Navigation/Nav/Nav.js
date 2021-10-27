@@ -40,6 +40,12 @@ const Nav = ({ handleClick, open }) => {
               Contact
             </Link>
           </li>
+          <li className="nav-item">
+            <a href="tel:+447512267981" >Call</a>
+          </li>
+          <li className="nav-item">
+            <a href="mailto: recroomslive@gmail.com" >Email</a>
+          </li>
         </ul>
       </motion.nav>
     </AnimatePresence>
