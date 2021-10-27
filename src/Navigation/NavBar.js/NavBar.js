@@ -22,13 +22,13 @@ const NavBar = () => {
           <li className="navbar-item">
             <Link to="services" spy={true} smooth={true}>Services</Link>
           </li>
-
-          <li className="navbar-item">
-            <Link to="contact" spy={true} smooth={true}>Contact</Link>
-          </li>
           <li className="navbar-item">
             <Link to="gallery" spy={true} smooth={true}>Gallery</Link>
           </li>
+          <li className="navbar-item">
+            <Link to="contact" spy={true} smooth={true}>Contact</Link>
+          </li>
+
           <li className="navbar-item">
             <a href="tel:+447512267981" >Call</a>
           </li>

@@ -1,0 +1,23 @@
+@import "../../Styles/_Variables.scss";
+
+.services-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.services-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2em;
+  li {
+    padding: 20px;
+    a {
+      padding: 20px;
+      //   color: $red;
+      text-decoration: underline;
+    }
+  }
+}
