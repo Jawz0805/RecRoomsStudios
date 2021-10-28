@@ -5,6 +5,7 @@ import VideoPlayer from "../Components/VideoPlayer/VideoPlayer";
 import PageWrapper from "../Containers/PageWrapper/PageWrapper";
 import GalleryContainer from '../Containers/GalleryContainer/GalleryContainer'
 import Services from '../Containers/Services/Services'
+import ContactForm from "../Containers/ContactForm/ContactForm";
 
 
 const HomePage = () => {
@@ -14,16 +15,15 @@ const HomePage = () => {
 
       <div id="studio" className="video-container">
         <h2>Our Studio</h2>
-        <p>Podcast equipment can be really expensive. The average podcaster spends around £1000 </p>
-        <p>on their setup for microphones, headphones, audio processing and soundproofing</p>
-        <p>Then there are technical hurdles to get up and running, all of which can be overwhelming for beginners.</p>
-        <p>Not with Rec Rooms Studios!</p>
-        <p>Record professional audio with a state of the art setup.</p>
-        <p>No audio processing or technical setup or software to learn. Just hit record and go!</p>
+        <p>Our podcast studio is fitted with top of the range audio and video equipment.</p>
+        <p>Fully soundproofed to reduce background noise with a comfortable and homely feel and aesthetic.</p>
+        <p>Located within Un.titled studio business park in Salford </p>
+        <p>Check out a tour of our studio below</p>
         <p className="cool-space">Hire the Rec Rooms Studio for your podcasts, voice overs and more!</p>
         <VideoPlayer video={{ title: "Studio Tour", videoURL: "https://www.youtube.com/embed/rUzwzXyL7rQ" }} />
       </div>
       <Services />
+
     </PageWrapper>
   );
 };

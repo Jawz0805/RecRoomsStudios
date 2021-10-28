@@ -2,7 +2,6 @@ import React from "react";
 import "./_Footer.scss";
 import Socials from "../../Components/Socials/Socials";
 import socialsLinks from "../../Components/Socials/SocialsLinks";
-import { Link } from "react-router-dom";
 import Logo from "../../Assets/RecRoomsLogoWhiteSmall.svg";
 
 
@@ -10,10 +9,12 @@ import Logo from "../../Assets/RecRoomsLogoWhiteSmall.svg";
 
 const Footer = () => {
   return (
-    <div className="footer-container bg-black white">
-      <Link to="/home" width="100%" className="footer-image">
+    <div className="footer-container">
+      <div className="footer-image-container">
         <img src={Logo} alt="RecRooms" className="footer-image" />
-      </Link>
+      </div>
+      <a className="footer-contact" href="tel:+447512267981" >Call: +447512267981</a>
+      <a className="footer-contact" href="mailto: recroomslive@gmail.com" >Email: recroomslive@gmail.com</a>
       <div className="footer-socials">
         <Socials socials={socialsLinks} color="white" />
       </div>

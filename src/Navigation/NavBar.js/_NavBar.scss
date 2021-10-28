@@ -4,6 +4,11 @@
   height: 100%;
   width: 60%;
 }
+.navbar-item {
+  &:hover {
+    cursor: pointer;
+  }
+}
 
 .navbar-list {
   margin: 0;

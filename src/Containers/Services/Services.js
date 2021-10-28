@@ -19,7 +19,7 @@ function Services
             <ServiceImage image={sm7b1} title="Voice Over Recording" text="Our soundproofed studio makes it the perfect environment to record great sounding vocals and voice-overs. Whether you’re working on an advert, or looking to promote your business, we can help you achieve the quality you need for specification." flex="row" />
             <ServiceImage image={DT7701} title="Mixing, Production and Mastering" text="Mixing and mastering for all forms of audio including voice overs, music and podcasts" flex="row-reverse" />
 
-            <a href={Pricelist} target="_blank" rel="noreferrer" className="pricelist-link">DOWNLOAD OUR PRICELIST and TECHNICAL SPECIFICATIONS</a>
+            <a href={Pricelist} target="_blank" rel="noreferrer" className="pricelist-link">DOWNLOAD OUR PRICELIST</a>
 
         </div >
     );

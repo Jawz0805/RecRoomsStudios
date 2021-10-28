@@ -32,9 +32,6 @@ const Nav = ({ handleClick, open }) => {
               Services
             </Link>
           </li>
-          <li className="nav-item" >
-            <Link activeClass="active" to="gallery" spy={true} smooth={true} onClick={() => handleClick()}>Gallery</Link>
-          </li>
           <li className="nav-item">
             <Link activeClass="active" to="contact" spy={true} smooth={true} onClick={() => handleClick()}>
               Contact
