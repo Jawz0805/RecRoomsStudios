@@ -15,13 +15,14 @@
   text-align: center;
   margin: 0;
   padding-left: 0;
-  li {
-    padding: 20px;
-    a {
-      margin: 0;
-      padding: 20px;
-      //   color: $red;
-      text-decoration: underline;
-    }
-  }
+}
+
+.pricelist-link {
+  color: $black;
+  background-color: $white;
+  margin: 0;
+  padding: 20px;
+  //   color: $red;
+  text-decoration: underline;
+  font-size: 2em;
 }

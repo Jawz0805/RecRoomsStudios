@@ -8,7 +8,7 @@
   width: 100%;
   max-height: 50vh;
   @include respond-to("large") {
-    padding-bottom: 30.125%;
+    padding-bottom: 45.125%;
   }
 }
 // .react-player {
@@ -31,11 +31,11 @@
   height: 100%;
 
   @include respond-to("xlarge") {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
   }
   @include respond-to("large") {
-    width: 50%;
+    width: 80%;
     height: 100%;
     margin: 0 auto;
   }

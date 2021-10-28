@@ -7,7 +7,7 @@ const HeroImage = ({ image, text1, text2, id }) => {
         <div className="hero-image" id={id} style={{ backgroundImage: `url(${image})` }}>
             <div className="hero-text-container">
                 <h1 className="hero-title">{text1}</h1>
-                <h2 className="hero-title">{text2}</h2>
+                <h2 className="hero-title2">{text2}</h2>
             </div>
             <div className="hero-opacity"></div>
 

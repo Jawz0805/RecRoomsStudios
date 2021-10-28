@@ -1,3 +1,5 @@
+@import "../../Styles/_Variables.scss";
+
 .hero-image {
   background-color: #cccccc; /* Used if the image is unavailable */
   min-height: 700px; /* You must set a specified height */
@@ -16,6 +18,9 @@
 .hero-text-container {
   z-index: 2;
   width: 80%;
+  @include respond-to("large") {
+    width: 65%;
+  }
 }
 
 .hero-opacity {
@@ -31,4 +36,16 @@
 
 .hero-title {
   text-shadow: 1px 1px 1px #000000;
+
+  @include respond-to("large") {
+    font-size: 3em;
+    font-weight: 700;
+  }
+}
+
+.hero-title2 {
+  margin-top: 40px;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: 1.8em;
+  font-weight: 400;
 }
