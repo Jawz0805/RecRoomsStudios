@@ -32,11 +32,11 @@ const Nav = ({ handleClick, open }) => {
               Services
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link activeClass="active" to="contact" spy={true} smooth={true} onClick={() => handleClick()}>
               Contact
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a href="tel:+447512267981" >Call</a>
           </li>
