@@ -50,7 +50,7 @@
     font-size: 3em;
     font-weight: 700;
   }
-  @include respond-to("xlarge") {
+  @include respond-to("xxlarge") {
     font-size: 4em;
     font-weight: 600;
   }
@@ -61,7 +61,7 @@
   text-shadow: 1px 1px 1px #000000;
   font-size: 1.8em;
   font-weight: 400;
-  @include respond-to("xlarge") {
+  @include respond-to("xxlarge") {
     font-size: 3em;
     font-weight: 600;
   }

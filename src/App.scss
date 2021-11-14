@@ -1,3 +1,5 @@
+@import "./Styles/_Variables.scss";
+
 .App {
   text-align: center;
 }
@@ -49,4 +51,9 @@ body {
   align-items: center;
   text-align: center;
   padding: 5%;
+  @include respond-to("xxlarge") {
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 40px;
+  }
 }
