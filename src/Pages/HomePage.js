@@ -3,9 +3,9 @@ import PodcastTable from "../Assets/PodcastTable.jpg"
 import HeroImage from "../Components/HeroImage/HeroImage";
 import VideoPlayer from "../Components/VideoPlayer/VideoPlayer";
 import PageWrapper from "../Containers/PageWrapper/PageWrapper";
-import GalleryContainer from '../Containers/GalleryContainer/GalleryContainer'
+// import GalleryContainer from '../Containers/GalleryContainer/GalleryContainer'
 import Services from '../Containers/Services/Services'
-import ContactForm from "../Containers/ContactForm/ContactForm";
+// import ContactForm from "../Containers/ContactForm/ContactForm";
 
 
 const HomePage = () => {
