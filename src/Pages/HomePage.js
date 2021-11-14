@@ -1,5 +1,5 @@
 import React from "react";
-import PodcastTable from "../Assets/PodcastTable.jpg"
+import PodcastTable from "../Assets/PodcastTable-01.jpg"
 import HeroImage from "../Components/HeroImage/HeroImage";
 import VideoPlayer from "../Components/VideoPlayer/VideoPlayer";
 import PageWrapper from "../Containers/PageWrapper/PageWrapper";
