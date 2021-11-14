@@ -2,10 +2,17 @@
 
 .hero-image {
   background-color: #cccccc; /* Used if the image is unavailable */
-  min-height: 700px; /* You must set a specified height */
-  background-position: center; /* Center the image */
+  max-height: 500px;
+  max-width: 500px;
+  background-position: center center;
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-size: auto;
+  @include respond-to("medium") {
+    background-size: cover;
+    min-height: 700px; /* You must set a specified height */
+    max-width: none;
+  }
+
   background-attachment: fixed;
   display: flex;
   justify-content: center;
