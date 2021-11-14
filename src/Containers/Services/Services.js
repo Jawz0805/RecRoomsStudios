@@ -5,7 +5,7 @@ import ServiceImage from '../../Components/ServiceImage/ServiceImage';
 
 import jedd from '../../Assets/jeddstill.jpg'
 import performance from '../../Assets/NiiPerformance-2.jpg'
-import sm7b1 from '../../Assets/SM7B-2.jpg'
+import sm7b1 from '../../Assets/SM7b-2.jpg'
 import DT7701 from '../../Assets/DT770.jpg'
 
 
