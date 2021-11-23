@@ -20,7 +20,7 @@ const HomePage = () => {
         <p>Located within Un.titled studio business park in Salford </p>
         <p>Check out a tour of our studio below</p>
         <p className="cool-space">Hire the Rec Rooms Studio for your podcasts, voice overs and more!</p>
-        <VideoPlayer video={{ title: "Studio Tour", videoURL: "https://www.youtube.com/embed/64tDCUKYXks" }} />
+        <VideoPlayer video={{ title: "Studio Tour", videoURL: "https://www.youtube.com/embed/64tDCUKYXks?rel=0" }} />
       </div>
       <Services />
 
