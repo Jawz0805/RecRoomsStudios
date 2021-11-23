@@ -10,8 +10,6 @@ import { useScrollPosition } from "./useScrollPosition";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-
-
   const [sticky, setSticky] = useState(false);
 
   useScrollPosition(
